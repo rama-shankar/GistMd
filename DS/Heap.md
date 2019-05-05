@@ -1,8 +1,10 @@
 # satisfy a heap property
-## In a max-heap, the max-heap property is that for every node i other than the root , 
-## PARENT(i) >= A[i];
-## min-heap is organized in the opposite way; the min-heap property is that for every node i other than the root,
-##  PARENT(i) <= A[i];
+## max-heap
+ the max-heap property is that for every node i other than the root , 
+ PARENT(i) >= A[i];
+## min-heap 
+ is organized in the opposite way; the min-heap property is that for every node i other than the root,
+ PARENT(i) <= A[i];
 ```
 A = [16, 14, 10, 8, 7, 9, 3, 2, 4, 1];
 
